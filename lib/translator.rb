@@ -5,7 +5,7 @@ def load_library(intake)
   result = {get_meaning: {}, get_emoticon: {}}
   load_file.each do |meaning, emoticons| 
     result[:get_meaning][emoticons[1]] = meaning
-    result[:get_emoticon][meaning] = emoticons[0] 
+    result[:get_emoticon][emoticon[0]] = emoticon[1] 
   end
   result
 end
