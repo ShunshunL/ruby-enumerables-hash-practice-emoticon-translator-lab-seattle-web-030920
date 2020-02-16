@@ -6,6 +6,7 @@ def load_library(intake)
   load_file.each do |meaning, emoticons| 
     result[:get_meaning][:emoticons[1]] = ""
   end
+  result
 end
 
 def get_japanese_emoticon
