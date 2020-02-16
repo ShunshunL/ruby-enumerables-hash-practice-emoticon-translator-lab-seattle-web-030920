@@ -10,7 +10,7 @@ def load_library(intake)
   result
 end
 
-def get_japanese_emoticon(emoticon)
+def get_japanese_emoticon(fileemoticon)
   
 end
 
